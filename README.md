@@ -1,7 +1,10 @@
 # spring-boot
 > 记录学习SpringBoot的过程
 - [X] springboot入门——helloworld
-- [ ] springboot的数据库操作
+- [ ] springboot简易网页——web
+- [ ] springboot数据库操作——database
+- [ ] springboot综合——wepapp
+- [ ] 附:springboot配置——config
 ---
 # 代码环境
 - JDK:1.7
