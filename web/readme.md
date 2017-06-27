@@ -1,0 +1,1 @@
+> springboot简单的web界面，请求不同的controller，返回不同的界面，界面使用Thymeleaf模板引擎
