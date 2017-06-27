@@ -1,5 +1,7 @@
 # spring-boot
 > 记录学习SpringBoot的过程
+- [X] springboot入门——helloworld
+- [ ] springboot的数据库操作
 ---
 # 代码环境
 - JDK:1.7
