@@ -11,5 +11,6 @@
 - IDE:IntelliJ IDEA 20162.5
 - TOMCAT:1.7
 ---
-# 参考书籍
+# 参考
 - [《深入实践Spring Boot》——陈韶健 著](https://read.douban.com/ebook/27557033/)
+- [官方文档](http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/)
