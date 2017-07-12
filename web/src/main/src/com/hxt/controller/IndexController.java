@@ -46,4 +46,11 @@ public class IndexController {
         user.setPassWord("ssssss");
         return user;
     }
+
+    @RequestMapping(value = {"/asdf","/ff"})
+    public String hello() throws Exception {
+        throw new NullPointerException("发生错误");
+    }
+
+
 }
