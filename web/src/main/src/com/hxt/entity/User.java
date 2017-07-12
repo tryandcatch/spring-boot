@@ -1,4 +1,4 @@
-package com.hxt.controller.entity;
+package com.hxt.entity;
 
 /**
  * Created by Huangxiutao on 2017/6/27.

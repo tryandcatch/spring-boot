@@ -1,6 +1,6 @@
 package com.hxt.controller;
 
-import com.hxt.controller.entity.User;
+import com.hxt.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
