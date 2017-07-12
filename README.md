@@ -16,3 +16,4 @@
 # 参考
 - [《深入实践Spring Boot》——陈韶健 著](https://read.douban.com/ebook/27557033/)
 - [官方文档](http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/)
+- [程序猿DD博客——Spring Boot基础教程](http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)
