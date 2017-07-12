@@ -6,11 +6,6 @@
     <title>thymeleaf模板</title>
 </head>
 <body>
-    <h1 th:text="'Hello '"></h1>
-    <h1 th:text="'What\'s your name ?'"></h1>
-    <form action="hello">
-        <input name="userName"/>
-        <input type="submit" th:value="提交"/>
-    </form>
+    <h1 th:text="'Hello '+ ${userName}+' !'"></h1>
 </body>
 </html>

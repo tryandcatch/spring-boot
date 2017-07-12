@@ -11,6 +11,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 public class IndexController {
+
+    @RequestMapping("/")
+    public String in(Model model){
+        return "redirect:/index";
+    }
+
     /**
      * 返回页面
      * @param model
@@ -18,16 +24,20 @@ public class IndexController {
      */
     @RequestMapping("/index")
     public String index(Model model){
-        model.addAttribute("userName","hxt");
         return "index";
     }
 
+    @RequestMapping("/hello")
+    public String hello(Model model,String userName){
+        model.addAttribute("userName",userName);
+        return "hello";
+    }
 
     /**
      * 返回json
      * @return
      */
-    @RequestMapping("/getJson")
+    @RequestMapping("/getUser")
     @ResponseBody
     public User getJson(){
         User user=new User();
