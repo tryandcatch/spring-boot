@@ -1,7 +1,8 @@
 # spring-boot
 > 记录学习SpringBoot的过程
 - [X] springboot入门——helloworld
-- [ ] springboot简易网页——web
+- [X] springboot简易网页——web
+- [X] springboot中使用Swagger2生成RESTful接口文档——RESTful
 - [ ] springboot数据库操作——database
 - [ ] springboot安全管理——Spring Security
 - [ ] springboot使用缓存——Redis
