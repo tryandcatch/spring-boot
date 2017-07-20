@@ -1,5 +1,6 @@
 package com.hxt;
 
+import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -38,6 +39,7 @@ public class Swagger2Config {
                 .globalResponseMessage(RequestMethod.GET,customerMessage())//为Get方法配置错误提示信息
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.hxt.controller"))
+                .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))//为属于com.hxt.controller包下且注解了 ApiOperation的方法添加接口文档
                 .paths(PathSelectors.any())
                 .build();
     }
